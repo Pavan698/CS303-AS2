@@ -30,3 +30,17 @@ earned that week (come up with some rules for these 2) . You need 3 functions
 b. Define derived classes Professional and Nonprofessional. Create instance for
 them.
 c. Test your classes
+
+HOW TO COMPILE
+1) Save the code in separate header and source files, such as Single_Linked_List.h, Single_Linked_List.cpp, Employee.h, Employee.cpp, Professional.h, Professional.cpp, Nonprofessional.h and Nonprofessional.cpp.
+2) Create a main.cpp file to test your classes.
+3) In your main.cpp, include the necessary headers and create instances of the Single_Linked_List and Employee classes.
+4) Use g++ to compile the code. For example:
+   g++ -o myprogram main.cpp Single_Linked_List.cpp Employee.cpp Professional.cpp Nonprofessional.cpp
+5) Run the compiled program:
+   ./myprogram
+
+OUTPUT:<img width="461" alt="Screenshot 2023-10-08 at 9 53 23 PM" src="https://github.com/Pavan698/CS303-AS2/assets/123590108/e6c55354-6595-4dac-9a2d-2d48fe501687">
+
+
+
